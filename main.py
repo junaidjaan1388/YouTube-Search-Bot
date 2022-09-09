@@ -5,9 +5,9 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, InlineQueryResultPhoto
 from youtubesearchpython import VideosSearch
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-API_ID = int(os.environ.get("API_ID"))
-API_HASH = os.environ.get("API_HASH")
+BOT_TOKEN = os.environ.get("5680908216:AAFhFaSY9qK8v_UY21UAzLAPAyGfgMaQcI4")
+API_ID = int(os.environ.get("16242400"))
+API_HASH = os.environ.get("69eaec25747c25936eac0c2764eaf0bf")
 CHANNELS = os.environ.get("CHANNELS", "").split()
 
 Bot = Client(
